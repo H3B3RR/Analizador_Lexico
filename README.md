@@ -31,44 +31,45 @@ El analizador léxico lee el archivo `entrada.txt`, identifica los diferentes to
 ## Ejecución
 Para ejecutar el analizador léxico, se debe compilar y ejecutar la clase `Main` con los archivos de entrada y salida como argumentos:
 
-```sh
+sh
 javac [Main.java]
 java Main [entrada.txt](http://_vscodecontentref_/10)
 
 
 Ejemplo de Salida
 Dado el archivo de entrada entrada.txt, el archivo de salida salida.txt podría contener:
-PALABRA_CLAVE: function
-IDENTIFICADOR: suma
-TEXTO NO RECONOCIDO: (
-IDENTIFICADOR: a
-TEXTO NO RECONOCIDO: ,
-IDENTIFICADOR: b
-TEXTO NO RECONOCIDO: )
-DELIMITADOR: {
-PALABRA_CLAVE: if
-TEXTO NO RECONOCIDO: (
-IDENTIFICADOR: a
-TEXTO NO RECONOCIDO: >
-IDENTIFICADOR: b
-TEXTO NO RECONOCIDO: )
-DELIMITADOR: {
-PALABRA_CLAVE: return
-IDENTIFICADOR: a
-OPERADOR: -
-IDENTIFICADOR: b
-DELIMITADOR: ;
-DELIMITADOR: }
-PALABRA_CLAVE: else
-DELIMITADOR: {
-PALABRA_CLAVE: return
-IDENTIFICADOR: b
-OPERADOR: -
-IDENTIFICADOR: a
-DELIMITADOR: ;
-DELIMITADOR: }
-DELIMITADOR: }
-...```
+
+	PALABRA_CLAVE: function
+	IDENTIFICADOR: suma
+	TEXTO NO RECONOCIDO: (
+	IDENTIFICADOR: a
+	TEXTO NO RECONOCIDO: ,
+	IDENTIFICADOR: b
+	TEXTO NO RECONOCIDO: )
+	DELIMITADOR: {
+	PALABRA_CLAVE: if
+	TEXTO NO RECONOCIDO: (
+	IDENTIFICADOR: a
+	TEXTO NO RECONOCIDO: >
+	IDENTIFICADOR: b
+	TEXTO NO RECONOCIDO: )
+	DELIMITADOR: {
+	PALABRA_CLAVE: return
+	IDENTIFICADOR: a
+	OPERADOR: -
+	IDENTIFICADOR: b
+	DELIMITADOR: ;
+	DELIMITADOR: }
+	PALABRA_CLAVE: else
+	DELIMITADOR: {
+	PALABRA_CLAVE: return
+	IDENTIFICADOR: b
+	OPERADOR: -
+	IDENTIFICADOR: a
+	DELIMITADOR: ;
+	DELIMITADOR: }
+	DELIMITADOR: }
+	...
 
 Este proyecto es una herramienta útil para el análisis léxico de código fuente, permitiendo identificar y clasificar diferentes componentes del código.
 
