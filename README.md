@@ -2,10 +2,11 @@ Proyecto de Analizador Léxico
 Asignatura
 CL-2024 3- PROGRAMACIÓN DE SISTEMAS DE BASE I - Grupo I - 906531
 Integrantes
-Nolasco Ramirez Heber Abdiel
-Gonzalez Morales Victor Eduardo
-Gonzalez Cavazos Erick Alan
-Hernandez Gonzalez Luis Angel
+
+	Nolasco Ramirez Heber Abdiel
+	Gonzalez Morales Victor Eduardo
+	Gonzalez Cavazos Erick Alan
+	Hernandez Gonzalez Luis Angel
 
 
 Descripción del Proyecto
@@ -13,15 +14,15 @@ Este proyecto consiste en un analizador léxico desarrollado en Java utilizando 
 
 Estructura del Proyecto
 El proyecto tiene la siguiente estructura de archivos:
-    entrada.txt
-    Lexer.class
-    lexer.flex
-    Lexer.java
-    Lexer.java~
-    Main.class
-    Main.java
-    README.md
-    salida.txt
+	entrada.txt
+	Lexer.class
+	lexer.flex
+	Lexer.java
+	Lexer.java~
+	Main.class
+	Main.java
+	README.md
+	salida.txt
 
 Archivos y su Función
 entrada.txt: Contiene el código fuente que será analizado por el analizador léxico.
