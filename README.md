@@ -68,6 +68,8 @@ IDENTIFICADOR: a
 DELIMITADOR: ;
 DELIMITADOR: }
 DELIMITADOR: }
-...
+...```
 
 Este proyecto es una herramienta útil para el análisis léxico de código fuente, permitiendo identificar y clasificar diferentes componentes del código.
+
+
