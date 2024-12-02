@@ -31,6 +31,10 @@ El analizador léxico lee el archivo `entrada.txt`, identifica los diferentes to
 ## Ejecución
 Para ejecutar el analizador léxico, se debe compilar y ejecutar la clase `Main` con los archivos de entrada y salida como argumentos:
 
+1. **Compilar el archivo `Main.java`**:
+   ```Utiliza JFlex para generar el archivo `Lexer.java` a partir del archivo de especificación `lexer.flex`.
+	javac Main.java
+3. 
 
 sh
 javac [Main.java]
