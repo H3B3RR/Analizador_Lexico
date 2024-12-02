@@ -31,6 +31,7 @@ El analizador léxico lee el archivo `entrada.txt`, identifica los diferentes to
 ## Ejecución
 Para ejecutar el analizador léxico, se debe compilar y ejecutar la clase `Main` con los archivos de entrada y salida como argumentos:
 
+
 sh
 javac [Main.java]
 java Main [entrada.txt](http://_vscodecontentref_/10)
