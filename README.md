@@ -37,7 +37,7 @@ Para ejecutar el analizador léxico, se debe compilar y ejecutar la clase `Main`
 - Tener instalado Java Development Kit (JDK).
 - Tener instalado JFlex.
 
-## Generar el Analizador Léxico
+## 1 - Generar el Analizador Léxico
 1. Crear el archivo `Lexer.flex` con el contenido del analizador léxico.
 2. Abrir una terminal y navegar al directorio donde se encuentra `Lexer.flex`.
 3. Ejecutar el siguiente comando para generar el analizador léxico:
@@ -45,7 +45,7 @@ Para ejecutar el analizador léxico, se debe compilar y ejecutar la clase `Main`
     jflex Lexer.flex
     ```
 
-## Compilar el Código Java
+## 2 - Compilar el Código Java
 1. Asegurarse de que los archivos generados (`Lexer.java`) y `Main.java` están en el mismo directorio.
 2. En la terminal, navegar al directorio donde se encuentran los archivos `.java`.
 3. Ejecutar el siguiente comando para compilar los archivos:
@@ -53,7 +53,7 @@ Para ejecutar el analizador léxico, se debe compilar y ejecutar la clase `Main`
     javac Main.java Lexer.java
     ```
 
-## Ejecutar el Analizador Léxico
+## 3 - Ejecutar el Analizador Léxico
 1. Crear un archivo de entrada `entrada.txt` con el contenido necesario para el análisis.
 2. En la terminal, ejecutar el siguiente comando para ejecutar el programa:
     ```sh
