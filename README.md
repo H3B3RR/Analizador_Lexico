@@ -12,17 +12,18 @@ Integrantes
 Descripción del Proyecto
 Este proyecto consiste en un analizador léxico desarrollado en Java utilizando JFlex. El analizador léxico se encarga de leer un archivo de entrada que contiene código fuente y generar un archivo de salida con los tokens identificados en el código.
 
-Estructura del Proyecto
-El proyecto tiene la siguiente estructura de archivos:
-entrada.txt
-Lexer.class
-lexer.flex
-Lexer.java
-Lexer.java~
-Main.class
-Main.java
-README.md
-salida.txt
+
+### Archivos y su Función
+- **entrada.txt**: Contiene el código fuente que será analizado por el analizador léxico.
+- **Lexer.class**: Archivo compilado de la clase `Lexer`.
+- **lexer.flex**: Archivo de especificación de JFlex que define las reglas léxicas.
+- **Lexer.java**: Archivo generado por JFlex a partir de `lexer.flex`, contiene la implementación del analizador léxico.
+- **Lexer.java~**: Copia de seguridad del archivo `Lexer.java`.
+- **Main.class**: Archivo compilado de la clase `Main`.
+- **Main.java**: Clase principal que ejecuta el analizador léxico.
+- **README.md**: Archivo de documentación del proyecto.
+- **salida.txt**: Archivo generado por el analizador léxico que contiene los tokens identificados.
+
 
 Archivos y su Función
 entrada.txt: Contiene el código fuente que será analizado por el analizador léxico.
